@@ -2,9 +2,8 @@
 
 
 
-
  
-fetch('https://api.weatherapi.com/v1/current.json?key=c3314bef8e5a42c792c72531202011&q=London').then(res => res.json()).then(data => {
+fetch(config.url).then(res => res.json()).then(data => {
     document.getElementById('location').innerHTML = data.location.region;
     document.getElementById('deg').innerHTML = data.current.temp_c + 'o'.sup();
     document.getElementById('msg').innerHTML = data.current.condition.text;
