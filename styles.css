@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2f2fa2;
+}
+
+.grid {
+  margin: 11rem auto;
+  /* border: 1px solid; */
+  width: 90%;
+  padding: 1rem;
+  font-family: Goldman;
+  /* grid-template-columns: auto; */
+  color: white;
+}
+
+.grid div {
+  font-size: 30px;
+  /* border: 1px solid; */
+  margin-bottom: 0.2rem;
+  padding: 15px;
+}
+
+.box {
+  text-align: right;
+}
+
+.box2 {
+  text-align: end;
+}
+
+#time {
+  text-decoration: overline;
+  font-family: Texturina;
+}
+
+sup {
+  font-size: 25px;
+}
