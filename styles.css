@@ -48,6 +48,6 @@ sup {
 
 @media only screen and (max-width: 600px) {
   body {
-    margin: 0.5rem auto;
+    margin: 10px auto;
   }
 }
